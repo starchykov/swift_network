@@ -109,8 +109,7 @@
 			isa = PBXGroup;
 			children = (
 				2C0EAE492A23BB7B00D96A40 /* Domain */,
-				2C048E7F2A23BA8C00E64417 /* Clients */,
-				2C048E772A23B8EC00E64417 /* Views */,
+				2C048E772A23B8EC00E64417 /* UI */,
 				2C048E722A23B76200E64417 /* Data */,
 				2C048E462A23B6F600E64417 /* SwiftNetworkClientApp.swift */,
 				2C048E4A2A23B6F700E64417 /* Assets.xcassets */,
@@ -151,12 +150,12 @@
 			path = Data;
 			sourceTree = "<group>";
 		};
-		2C048E772A23B8EC00E64417 /* Views */ = {
+		2C048E772A23B8EC00E64417 /* UI */ = {
 			isa = PBXGroup;
 			children = (
 				2C048E782A23B8FF00E64417 /* HomeScreen */,
 			);
-			path = Views;
+			path = UI;
 			sourceTree = "<group>";
 		};
 		2C048E782A23B8FF00E64417 /* HomeScreen */ = {
@@ -169,20 +168,10 @@
 			path = HomeScreen;
 			sourceTree = "<group>";
 		};
-		2C048E7F2A23BA8C00E64417 /* Clients */ = {
-			isa = PBXGroup;
-			children = (
-				2C048E802A23BAAD00E64417 /* Network.swift */,
-				2C048E822A23BACE00E64417 /* Request.swift */,
-				2C048E842A23BAE800E64417 /* Endpoints.swift */,
-				2C048E862A23BB0A00E64417 /* NetworkErrors.swift */,
-			);
-			path = Clients;
-			sourceTree = "<group>";
-		};
 		2C0EAE492A23BB7B00D96A40 /* Domain */ = {
 			isa = PBXGroup;
 			children = (
+				2C0EAE4D2A23E28B00D96A40 /* Services */,
 				2C0EAE4A2A23BB8700D96A40 /* Models */,
 			);
 			path = Domain;
@@ -194,6 +183,25 @@
 				2C0EAE4B2A23BB9300D96A40 /* PostModel.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		2C0EAE4D2A23E28B00D96A40 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				2C0EAE4E2A23E29A00D96A40 /* NetworkService */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		2C0EAE4E2A23E29A00D96A40 /* NetworkService */ = {
+			isa = PBXGroup;
+			children = (
+				2C048E802A23BAAD00E64417 /* Network.swift */,
+				2C048E822A23BACE00E64417 /* Request.swift */,
+				2C048E842A23BAE800E64417 /* Endpoints.swift */,
+				2C048E862A23BB0A00E64417 /* NetworkErrors.swift */,
+			);
+			path = NetworkService;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
